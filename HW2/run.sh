@@ -1,0 +1,1 @@
+python3 -m test_mc_no_trainer --context_file "${1}" --test_file "${2}" && python3 -m test_qa_no_trainer --prediction_file "${3}"
